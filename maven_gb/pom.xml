@@ -11,6 +11,9 @@
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
+        <!--<selenium.version>4.0.0</selenium.version>-->
+        <!--<webdrivermanager.version>5.0.3</webdrivermanager.version>-->
+
     </properties>
 
     <dependencies>
@@ -19,6 +22,18 @@
             <artifactId>log4j-core</artifactId>
             <version>2.20.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.9.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.3.3</version>
+        </dependency>
+
+
     </dependencies>
 
 
