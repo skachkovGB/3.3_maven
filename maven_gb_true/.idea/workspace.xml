@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,12 +84,27 @@
       <option name="project" value="LOCAL" />
       <updated>1685022502529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлены тест 1 и 2, для тестов 3 и 4 требуется Actions из 5ого урока">
+      <created>1685352026401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685352026401</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавлены тест 1 и 2, для тестов 3 и 4 требуется Actions из 5ого урока">
+      <created>1685352268541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685352268541</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="true maven" />
     <MESSAGE value="+some dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="+some dependencies" />
+    <MESSAGE value="добавлены тест 1 и 2, для тестов 3 и 4 требуется Actions из 5ого урока" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены тест 1 и 2, для тестов 3 и 4 требуется Actions из 5ого урока" />
   </component>
 </project>
