@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TriangleTest {
 
-    static Logger logger = LoggerFactory.getLogger(TriangleTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(TriangleTest.class);
 
     private static final Triangle triangleForTest = new Triangle();
 

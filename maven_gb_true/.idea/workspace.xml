@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685615750872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="копипаста из стековерфлоу работает">
+      <created>1685683814329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685683814329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,6 +204,7 @@
     <MESSAGE value="добавлены тест 1 и 2, для тестов 3 и 4 требуется Actions из 5ого урока" />
     <MESSAGE value="Удалил неправильный проект" />
     <MESSAGE value="Не смог разобраться с логером в методичке ничего нет, в презентации 2 слайда, конструкция из лекции не работает. С помощью гугла не смог написать &quot;Hello world&quot; для логирования(((" />
-    <option name="LAST_COMMIT_MESSAGE" value="Не смог разобраться с логером в методичке ничего нет, в презентации 2 слайда, конструкция из лекции не работает. С помощью гугла не смог написать &quot;Hello world&quot; для логирования(((" />
+    <MESSAGE value="копипаста из стековерфлоу работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="копипаста из стековерфлоу работает" />
   </component>
 </project>
