@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" afterDir="false" />
     </list>
@@ -32,23 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects_java\3.3_maven\3.3_maven\maven_gb_true\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest">
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeletePostTest">
+    <configuration name="CreatePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
@@ -57,13 +62,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CreatePostTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.checkCorrectResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeletePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +77,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="checkCorrectResult" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DeletePostTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.checkResultWithCsvSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +92,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="checkResultWithCsvSource(double,int,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.checkResultWithCsvSourceRounding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SurfingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +107,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="checkResultWithCsvSourceRounding(double,int,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SurfingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.huin9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SurfingTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="huin9" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SurfingTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleTest" />
-        <item itemvalue="JUnit.TriangleTest.checkResultWithCsvSourceRounding" />
-        <item itemvalue="JUnit.TriangleTest.checkResultWithCsvSource" />
-        <item itemvalue="JUnit.TriangleTest.checkCorrectResult" />
-        <item itemvalue="JUnit.TriangleTest.huin9" />
+        <item itemvalue="JUnit.DeletePostTest" />
+        <item itemvalue="JUnit.CreatePostTest" />
+        <item itemvalue="JUnit.SurfingTest" />
+        <item itemvalue="JUnit.SurfingTest.test" />
+        <item itemvalue="JUnit.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685683814329</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ДЗ4 финальный вид">
+      <created>1685684115622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685684115623</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +214,7 @@
     <MESSAGE value="Удалил неправильный проект" />
     <MESSAGE value="Не смог разобраться с логером в методичке ничего нет, в презентации 2 слайда, конструкция из лекции не работает. С помощью гугла не смог написать &quot;Hello world&quot; для логирования(((" />
     <MESSAGE value="копипаста из стековерфлоу работает" />
-    <option name="LAST_COMMIT_MESSAGE" value="копипаста из стековерфлоу работает" />
+    <MESSAGE value="ДЗ4 финальный вид" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ4 финальный вид" />
   </component>
 </project>

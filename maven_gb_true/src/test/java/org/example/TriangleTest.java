@@ -13,44 +13,44 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TriangleTest {
 
     private static final Logger logger = LoggerFactory.getLogger(TriangleTest.class);
-
     private static final Triangle triangleForTest = new Triangle();
-
-
-
-    final Supplier<String> randomSupplier =
-           () -> Double.toString(Math.random());
 
     @Test
     void simpleTest() {
+        Supplier<String> randomSupplier = () -> Double.toString(Math.random());
         logger.error(randomSupplier);
         assertTrue(true);
         logger.info(() -> Double.toString(Math.random()));
     }
+    @Test
+    void simpleTest2 () {
+        Supplier<String> info = ()-> "info"; // в скобках можно написать то, что хотите вывести на экран
+        logger.info (info);
+    }
 
     @Test
-    @Order(1)
+    //@Order(1)
     @DisplayName("a/b/c=0")
     void checkNullSide() throws MyTriangleException{
         Assertions.assertThrows(MyTriangleException.class,() -> triangleForTest.areaTriangle(0,4,5));
     }
 
     @Test
-    @Order(2)
+    //@Order(2)
     @DisplayName("a/b/c<0")
     void checkNegativeSide() throws MyTriangleException{
         Assertions.assertThrows(MyTriangleException.class,() -> triangleForTest.areaTriangle(-2,4,5));
     }
 
     @Test
-    @Order(3)
+    //@Order(3)
     @DisplayName("a+b<c")
     void checkSumNotTriangle() throws MyTriangleException{
         Assertions.assertThrows(MyTriangleException.class,() -> triangleForTest.areaTriangle(10,4,5));
     }
 
     @Test
-    @Order(4)
+    //@Order(4)
     @DisplayName("equals correct calculations")
     void checkCorrectResult() throws MyTriangleException{
         Assertions.assertEquals(6 , triangleForTest.areaTriangle(3,4,5));
@@ -58,7 +58,7 @@ public class TriangleTest {
 
     @ParameterizedTest
     @CsvSource({"15.59,6,6,6"})
-    @Order(5)
+    //@Order(5)
     @DisplayName("parametrize correct calculations rounding")
     void checkResultWithCsvSourceRounding(double result, int a, int b, int c) throws MyTriangleException{
         Assertions.assertEquals(result , Math.round(triangleForTest.areaTriangle(a,b,c)*100.0)/100.0);
