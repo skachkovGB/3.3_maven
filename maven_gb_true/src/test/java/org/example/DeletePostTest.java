@@ -22,7 +22,7 @@ public class DeletePostTest extends AbstractTest {
         WebElement userName = getDriver().findElement(By.id("user"));
         userName.sendKeys("GBTEST_Skachkov");
 
-        //Thread.sleep(5000);
+        Thread.sleep(2000);
         WebElement userPswd = getDriver().findElement(By.id("lj_loginwidget_password"));
         userPswd.sendKeys("1301Skpol");
 

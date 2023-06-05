@@ -20,7 +20,7 @@ public class LogoutTest extends AbstractTest {
         WebElement userName = getDriver().findElement(By.id("user"));
         userName.sendKeys("GBTEST_Skachkov");
 
-        //Thread.sleep(5000);
+        Thread.sleep(2000);
         WebElement userPswd = getDriver().findElement(By.id("lj_loginwidget_password"));
         userPswd.sendKeys("1301Skpol");
 
@@ -45,7 +45,7 @@ public class LogoutTest extends AbstractTest {
 
 
         Thread.sleep(5000);
-        //Считаем, что если появилась кнопка создания первой записи, то тест прошел
+        //Считаем, что если появилась кнопка выхода, то тест прошел
         Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath(".//a[text()='Войти']")));
     }
 }
