@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 public class LoginTest extends AbstractTest {
     @Test
     @Order(1)
-    void test() throws InterruptedException{
+    void loginTest() throws InterruptedException{
         //Thread.sleep(20000);
         WebElement loginBtn = getDriver().findElement(By.cssSelector(".s-header-item__link--login"));
         loginBtn.click();

@@ -11,8 +11,8 @@ import org.openqa.selenium.interactions.Actions;
 public class DeletePostTest extends AbstractTest {
 
     @Test
-    @Order(4)
-    void test() throws InterruptedException {
+    @Order(5)
+    void deletePostTest() throws InterruptedException {
 
         //====================================================================================================
         //кусок из теста 1 (Логин), не получилось тесты в подряд запустить
@@ -41,7 +41,8 @@ public class DeletePostTest extends AbstractTest {
                 .build()
                 .perform();
 
-        WebElement delBtn = getDriver().findElement(By.xpath("//a[contains(text(),'Удалить пост')]"));
+        //WebElement delBtn = getDriver().findElement(By.xpath("//a[contains(text(),'Удалить пост')]"));
+        WebElement delBtn = getDriver().findElement(By.xpath("//a[text()='Удалить пост']"));
         delBtn.click();
 
         WebElement confirmDelBtn = getDriver().findElement(By.xpath(".//*[text()='Удалить']/.."));
@@ -49,7 +50,8 @@ public class DeletePostTest extends AbstractTest {
 
 
         //Считаем, что если появилась кнопка создания первой записи, то тест прошел
-        Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath("//a[contains(text(),'Создать первую запись')]")));
+        //Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath("//a[contains(text(),'Создать первую запись')]")));
+        Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath("//a[text()='Создать первую запись']")));
     }
 }
 

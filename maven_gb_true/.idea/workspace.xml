@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LogoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="D:\projects_java\3.3_maven\3.3_maven\maven_gb_true\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeletePostTest">
+  <component name="RunManager" selected="JUnit.LogoutTest">
     <configuration name="CreatePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
@@ -83,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +91,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LogoutTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogoutTest" />
         <item itemvalue="JUnit.DeletePostTest" />
         <item itemvalue="JUnit.CreatePostTest" />
         <item itemvalue="JUnit.SurfingTest" />
         <item itemvalue="JUnit.SurfingTest.test" />
-        <item itemvalue="JUnit.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685684115623</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ДЗ5: Перенесено 4 теста с ассертами">
+      <created>1685972539212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685972539212</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,6 +221,7 @@
     <MESSAGE value="Не смог разобраться с логером в методичке ничего нет, в презентации 2 слайда, конструкция из лекции не работает. С помощью гугла не смог написать &quot;Hello world&quot; для логирования(((" />
     <MESSAGE value="копипаста из стековерфлоу работает" />
     <MESSAGE value="ДЗ4 финальный вид" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ4 финальный вид" />
+    <MESSAGE value="ДЗ5: Перенесено 4 теста с ассертами" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ5: Перенесено 4 теста с ассертами" />
   </component>
 </project>

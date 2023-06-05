@@ -13,7 +13,7 @@ import javax.swing.*;
 public class CreatePostTest extends AbstractTest{
     @Test
     @Order(3)
-    void test() throws InterruptedException {
+    void createPostTest() throws InterruptedException {
 
         //====================================================================================================
         //кусок из теста 1 (Логин), не получилось тесты в подряд запустить

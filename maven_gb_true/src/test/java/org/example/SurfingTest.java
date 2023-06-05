@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 public class SurfingTest extends AbstractTest{
     @Test
     @Order(2)
-    void test() throws InterruptedException {
+    void surfingTest() throws InterruptedException {
 
         //====================================================================================================
         //кусок из теста 1 (Логин), не получилось тесты в подряд запустить
