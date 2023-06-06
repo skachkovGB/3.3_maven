@@ -30,8 +30,6 @@ public class SearchTest extends AbstractTest{
         pushLoginBtn.click();
         //====================================================================================================
 
-        String startWindow = getDriver().getWindowHandle();
-
         Thread.sleep(2000);
         WebElement searchBtn = getDriver().findElement(By.xpath("//button[@data-tour-text]"));
         searchBtn.click();
@@ -47,14 +45,21 @@ public class SearchTest extends AbstractTest{
                 .perform();
         searchBtn.click();
 
+        String currentWindow = getDriver().getWindowHandle();
+        for(String winHandle : getDriver().getWindowHandles()) {
+            if (!winHandle.equals(currentWindow)) {
+                getDriver().switchTo().window(winHandle);
+            }
+        }
 
         Thread.sleep(5000);
-        //Считаем, что если появилось окно с поиском то тест прошел //Этот ассерт не сработал почему-то
-        //Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath("//a[text()='Справка']")));
+        //Считаем, что если появилось окно с поиском то тест прошел
+        // Ассерт не работает потому что ассерт происходит не новой странице, а на старой (первой) //исправлено
+        Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath("//a[text()='Справка']")));
 
         Thread.sleep(5000);
         //Смогли вернуться на главную
-        getDriver().switchTo().window(startWindow);
+        getDriver().switchTo().window(currentWindow);
         Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath(".//a[@href='https://www.livejournal.com/category/novye_lica/']")));
     }
 }

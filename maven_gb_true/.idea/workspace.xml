@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="ДЗ5: добавил пятый тест, шестой в процессе">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SearchTest.java" afterDir="false" />
+    <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685976298434</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ДЗ5: добавил шестой тест, не могу понять почему ассерт на 53 строке не работает">
+      <created>1685983512158</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685983512158</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +234,7 @@
     <MESSAGE value="ДЗ4 финальный вид" />
     <MESSAGE value="ДЗ5: Перенесено 4 теста с ассертами" />
     <MESSAGE value="ДЗ5: добавил пятый тест, шестой в процессе" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ5: добавил пятый тест, шестой в процессе" />
+    <MESSAGE value="ДЗ5: добавил шестой тест, не могу понять почему ассерт на 53 строке не работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ5: добавил шестой тест, не могу понять почему ассерт на 53 строке не работает" />
   </component>
 </project>

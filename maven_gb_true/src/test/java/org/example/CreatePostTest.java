@@ -35,6 +35,7 @@ public class CreatePostTest extends AbstractTest{
         WebElement writeBlogBtn = getDriver().findElement(By.cssSelector(".s-header-item-post--long"));
         writeBlogBtn.click();
 
+        Thread.sleep(2000);
         Actions title = new Actions(getDriver());
         title.moveToElement(getDriver().findElement(By.xpath(".//textarea[@placeholder='Придумайте заголовок']")))
                 .click()
@@ -51,7 +52,7 @@ public class CreatePostTest extends AbstractTest{
                 .build()
                 .perform();
 
-
+        Thread.sleep(2000);
         WebElement publicAndSettingBtn = getDriver().findElement(By.xpath(".//*[text()='Настроить и опубликовать']/.."));
         publicAndSettingBtn.click();
 
