@@ -49,15 +49,13 @@ public class SearchTest extends AbstractTest{
         for(String winHandle : getDriver().getWindowHandles()) {
             if (!winHandle.equals(currentWindow)) {
                 getDriver().switchTo().window(winHandle);
+                Thread.sleep(2000);
+                Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath("//a[text()='Справка']")));
             }
         }
 
-        Thread.sleep(5000);
-        //Считаем, что если появилось окно с поиском то тест прошел
-        // Ассерт не работает потому что ассерт происходит не новой странице, а на старой (первой) //исправлено
-        Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath("//a[text()='Справка']")));
 
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         //Смогли вернуться на главную
         getDriver().switchTo().window(currentWindow);
         Assertions.assertDoesNotThrow(() -> getDriver().findElement(By.xpath(".//a[@href='https://www.livejournal.com/category/novye_lica/']")));
