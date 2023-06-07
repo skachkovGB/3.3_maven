@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson06/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson06/AllElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson06/AbstractTest_For6lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson06/OneFileForSixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/CreatePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/DeletePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/SurfingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,90 +58,94 @@
       <recent name="D:\projects_java\3.3_maven\3.3_maven\maven_gb_true\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchTest">
-    <configuration name="CreatePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OneFileForSixTest.deletePostTest">
+    <configuration name="OneFileForSixTest.createPostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CreatePostTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.lesson06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
+      <option name="METHOD_NAME" value="createPostTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneFileForSixTest.deletePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.LogoutTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.lesson06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
+      <option name="METHOD_NAME" value="deletePostTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneFileForSixTest.logoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.lesson06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
+      <option name="METHOD_NAME" value="logoutTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneFileForSixTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SearchTest" />
+      <option name="PACKAGE_NAME" value="org.example.lesson06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
       <option name="METHOD_NAME" value="searchTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SurfingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneFileForSixTest.surfingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SurfingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.lesson06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
+      <option name="METHOD_NAME" value="surfingTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchTest" />
-        <item itemvalue="JUnit.SearchTest.searchTest" />
-        <item itemvalue="JUnit.LogoutTest" />
-        <item itemvalue="JUnit.CreatePostTest" />
-        <item itemvalue="JUnit.SurfingTest" />
+        <item itemvalue="JUnit.OneFileForSixTest.deletePostTest" />
+        <item itemvalue="JUnit.OneFileForSixTest.logoutTest" />
+        <item itemvalue="JUnit.OneFileForSixTest.searchTest" />
+        <item itemvalue="JUnit.OneFileForSixTest.createPostTest" />
+        <item itemvalue="JUnit.OneFileForSixTest.surfingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686052233497</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ДЗ5: финальный вид, хватит мучать 5ое дз, переходим к 6ому">
+      <created>1686053805260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686053805260</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +264,7 @@
     <MESSAGE value="ДЗ5: добавил пятый тест, шестой в процессе" />
     <MESSAGE value="ДЗ5: добавил шестой тест, не могу понять почему ассерт на 53 строке не работает" />
     <MESSAGE value="ДЗ5: наставник разрулил, теперь работает)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ5: наставник разрулил, теперь работает)" />
+    <MESSAGE value="ДЗ5: финальный вид, хватит мучать 5ое дз, переходим к 6ому" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ5: финальный вид, хватит мучать 5ое дз, переходим к 6ому" />
   </component>
 </project>

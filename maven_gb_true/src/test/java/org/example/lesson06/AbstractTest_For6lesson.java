@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lesson06;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
@@ -9,15 +9,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-
 import java.util.concurrent.TimeUnit;
 
-public class AbstractTest {
-
+public class AbstractTest_For6lesson {
     private static WebDriver driver;
 
     @BeforeAll
-    static void init(){
+    static void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         //options.addArguments("--incognito");
@@ -27,19 +25,17 @@ public class AbstractTest {
     }
 
     @BeforeEach
-    void goTo(){
+    void initMainPage(){
         Assertions.assertDoesNotThrow( ()-> driver.navigate().to("https://www.livejournal.com"),"Страница не доступна");
     }
 
     @AfterAll
     static void close(){
+        //if(driver !=null) driver.quit();
         //driver.close();
-        //driver.quit();
     }
-
     public static WebDriver getDriver() {
         return driver;
     }
 
 }
-

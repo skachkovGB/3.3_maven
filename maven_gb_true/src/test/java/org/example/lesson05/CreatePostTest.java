@@ -1,5 +1,6 @@
-package org.example;
+package org.example.lesson05;
 
+import org.example.lesson05.AbstractTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -8,9 +9,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import javax.swing.*;
-
-public class CreatePostTest extends AbstractTest{
+public class CreatePostTest extends AbstractTest {
     @Test
     @Order(3)
     void createPostTest() throws InterruptedException {

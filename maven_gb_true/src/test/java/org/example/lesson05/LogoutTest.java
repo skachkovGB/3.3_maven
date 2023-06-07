@@ -1,5 +1,6 @@
-package org.example;
+package org.example.lesson05;
 
+import org.example.lesson05.AbstractTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;

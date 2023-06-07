@@ -1,14 +1,14 @@
-package org.example;
+package org.example.lesson05;
 
+import org.example.lesson05.AbstractTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-public class SearchTest extends AbstractTest{
+public class SearchTest extends AbstractTest {
 
     @Test
     @Order(4)

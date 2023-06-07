@@ -1,12 +1,13 @@
-package org.example;
+package org.example.lesson05;
 
+import org.example.lesson05.AbstractTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class SurfingTest extends AbstractTest{
+public class SurfingTest extends AbstractTest {
     @Test
     @Order(2)
     void surfingTest() throws InterruptedException {
