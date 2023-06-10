@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6526a82f-3fd5-4f0b-a40f-35b8773bd41f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson06/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson06/AllElementsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson06/AbstractTest_For6lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson06/OneFileForSixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson07/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson07/MyWebDriverEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson07/AbstractTest_For7lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson07/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/CreatePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DeletePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/DeletePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SurfingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson05/SurfingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lesson06/OneFileForSixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson06/OneFileForSixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +38,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects_java\3.3_maven\3.3_maven\maven_gb_true\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OneFileForSixTest.deletePostTest">
-    <configuration name="OneFileForSixTest.createPostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven_gb_true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson07" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson07.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneFileForSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_gb_true" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +79,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.lesson06" />
       <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
-      <option name="METHOD_NAME" value="createPostTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +95,22 @@
       <option name="PACKAGE_NAME" value="org.example.lesson06" />
       <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
       <option name="METHOD_NAME" value="deletePostTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneFileForSixTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven_gb_true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,45 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneFileForSixTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven_gb_true" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson06" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
-      <option name="METHOD_NAME" value="searchTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneFileForSixTest.surfingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven_gb_true" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson06" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson06.OneFileForSixTest" />
-      <option name="METHOD_NAME" value="surfingTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.OneFileForSixTest.loginTest" />
+        <item itemvalue="JUnit.OneFileForSixTest" />
         <item itemvalue="JUnit.OneFileForSixTest.deletePostTest" />
         <item itemvalue="JUnit.OneFileForSixTest.logoutTest" />
-        <item itemvalue="JUnit.OneFileForSixTest.searchTest" />
-        <item itemvalue="JUnit.OneFileForSixTest.createPostTest" />
-        <item itemvalue="JUnit.OneFileForSixTest.surfingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,8 +242,26 @@
       <option name="project" value="LOCAL" />
       <updated>1686053805260</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ДЗ6: PageObject рефакторинг">
+      <created>1686141316753</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686141316753</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="true maven" />
@@ -265,6 +276,7 @@
     <MESSAGE value="ДЗ5: добавил шестой тест, не могу понять почему ассерт на 53 строке не работает" />
     <MESSAGE value="ДЗ5: наставник разрулил, теперь работает)" />
     <MESSAGE value="ДЗ5: финальный вид, хватит мучать 5ое дз, переходим к 6ому" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ5: финальный вид, хватит мучать 5ое дз, переходим к 6ому" />
+    <MESSAGE value="ДЗ6: PageObject рефакторинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ6: PageObject рефакторинг" />
   </component>
 </project>

@@ -1,13 +1,19 @@
 package org.example.lesson06;
 
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+import org.example.lesson07.AbstractTest_For7lesson;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
-public class OneFileForSixTest extends AbstractTest_For6lesson {
+@Story("6 тестов")
+public class OneFileForSixTest extends AbstractTest_For7lesson {
 
     private final AllElementsPage allElementsPage = new AllElementsPage(getDriver());
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     @Order(1)
     void loginTest() throws InterruptedException {
         allElementsPage.login();
