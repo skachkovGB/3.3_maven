@@ -18,11 +18,11 @@
       <!--<webdrivermanager.version>5.0.3</webdrivermanager.version>-->
 
       <!--<junit.version>5.6.2</junit.version>-->
-      <maven.compiler.source>1.8</maven.compiler.source>
-      <maven.compiler.target>1.8</maven.compiler.target>
-      <aspectj.version>1.8.13</aspectj.version>
-      <allure.version>2.21.0</allure.version>
-      <!--<allure.version>2.15.0</allure.version>-->
+      <!--<maven.compiler.source>1.8</maven.compiler.source>-->
+      <!--<maven.compiler.target>1.8</maven.compiler.target>-->
+     <aspectj.version>1.8.13</aspectj.version>
+     <allure.version>2.21.0</allure.version>
+     <!--<allure.version>2.15.0</allure.version>-->
       <allure-maven.version>2.10.0</allure-maven.version>
       <maven.surefire.plugin>2.22.0</maven.surefire.plugin>
 
@@ -64,54 +64,61 @@
     </dependency>
 
 
-    <dependency>
-       <groupId>org.apache.logging.log4j</groupId>
-       <artifactId>log4j-core</artifactId>
-       <version>2.20.0</version>
-     </dependency>
-     <dependency>
-       <groupId>org.seleniumhq.selenium</groupId>
-       <artifactId>selenium-java</artifactId>
-       <version>4.9.1</version>
-     </dependency>
-     <dependency>
-       <groupId>io.github.bonigarcia</groupId>
-       <artifactId>webdrivermanager</artifactId>
-       <version>5.3.3</version>
-       <scope>compile</scope>
-     </dependency>
-
-     <dependency>
-       <groupId>ch.qos.logback</groupId>
-       <artifactId>logback-classic</artifactId>
-       <version>1.4.7</version>
-       <scope>test</scope>
-     </dependency>
-     <dependency>
-       <groupId>ch.qos.logback</groupId>
-       <artifactId>logback-core</artifactId>
-       <version>1.4.7</version>
-       <scope>test</scope>
-     </dependency>
+      <!--<dependency>
+         <groupId>org.apache.logging.log4j</groupId>
+         <artifactId>log4j-core</artifactId>
+         <version>2.20.0</version>
+       </dependency>-->
 
       <dependency>
-          <groupId>io.qameta.allure</groupId>
-          <artifactId>allure-junit5</artifactId>
-          <version>${allure.version} </version>
+         <groupId>org.seleniumhq.selenium</groupId>
+         <artifactId>selenium-java</artifactId>
+         <version>4.9.1</version>
+       </dependency>
+       <dependency>
+         <groupId>io.github.bonigarcia</groupId>
+         <artifactId>webdrivermanager</artifactId>
+         <version>5.3.3</version>
+         <scope>compile</scope>
+       </dependency>
+
+        <!--<dependency>
+          <groupId>ch.qos.logback</groupId>
+          <artifactId>logback-classic</artifactId>
+          <version>1.4.7</version>
           <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>io.qameta.allure</groupId>
-          <artifactId>allure-java-commons</artifactId>
-          <version>2.21.0</version>
-          <!--<version>2.15.0</version>-->
+        </dependency>
+         <dependency>
+           <groupId>ch.qos.logback</groupId>
+           <artifactId>logback-core</artifactId>
+           <version>1.4.7</version>
+           <scope>test</scope>
+         </dependency>-->
+
+       <dependency>
+           <groupId>io.qameta.allure</groupId>
+           <artifactId>allure-junit5</artifactId>
+           <version>${allure.version} </version>
+           <scope>test</scope>
+       </dependency>
+       <dependency>
+           <groupId>io.qameta.allure</groupId>
+           <artifactId>allure-java-commons</artifactId>
+           <version>2.21.0</version>
+           <!--<version>2.15.0</version>-->
           <scope>compile</scope>
       </dependency>
+      <dependency>
+          <groupId>io.qameta.allure</groupId>
+          <artifactId>allure-testng</artifactId>
+          <version>2.22.1</version>
+      </dependency>
+
    </dependencies>
 
    <build>
      <plugins>
-         <!--<plugin>
+         <plugin>
              <groupId>org.apache.maven.plugins</groupId>
              <artifactId>maven-compiler-plugin</artifactId>
              <version>3.8.0</version>
@@ -119,14 +126,13 @@
                  <source>8</source>
                  <target>8</target>
              </configuration>
-         </plugin>-->
+         </plugin>
 
          <plugin>
              <groupId>org.apache.maven.plugins</groupId>
              <artifactId>maven-surefire-plugin</artifactId>
              <version>${maven.surefire.plugin}</version>
              <configuration>
-
                  <testFailureIgnore>false</testFailureIgnore>
                  <argLine>
                      -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
@@ -135,6 +141,8 @@
                      <property>
                          <name>junit.jupiter.extensions.autodetection.enabled</name>
                          <value>true</value>
+                         <!--<name>allure.results.directory</name>
+                         <value>D:\projects_java\3.3_maven\3.3_maven\maven_gb_true\allure-results</value>-->
                      </property>
                  </systemProperties>
              </configuration>
@@ -157,9 +165,14 @@
             <version> ${allure-maven.version} </version>
              <configuration>
              <buildDirectory>D:\projects_java\3.3_maven\3.3_maven\maven_gb_true</buildDirectory>
-                 <!--D:\projects_java\3.3_maven\3.3_maven\maven_gb_true-->
-            </configuration>
-         </plugin>
-     </plugins>
-   </build>
- </project>
+             <reportVersion>${allure.version}</reportVersion>
+             <!-- <reportVersion>2.14.0</reportVersion>-->
+              </configuration>
+          </plugin>
+      </plugins>
+    </build>
+
+     <reporting>
+
+     </reporting>
+  </project>
